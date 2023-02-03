@@ -5,15 +5,11 @@ class Solution {
             return false;
         }
         
-        char[] c = String.valueOf(x).toCharArray();
+        String str = String.valueOf(x);
         
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(str).reverse();
         
-        for(char i : c) {
-            sb.append(i);
-        }
-        
-        return String.valueOf(x).equals(sb.reverse().toString())?true:false;
+        return str.equals(sb.toString())?true:false;
         
     }
 }
