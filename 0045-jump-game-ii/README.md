@@ -31,3 +31,11 @@
 	<li><code>0 &lt;= nums[i] &lt;= 1000</code></li>
 </ul>
 </div>
+
+***
+### My Solve Method
+
+1. result 배열을 모두 Integer.MAX_VALUE 로 채운 후 result[0] 만 0 으로 초기화 한다.
+2. Down-Top 방식으로 index = 0 일 때부터 nums[index] 만큼 반복하며 기존 점프 횟수와 1을 더한 값을 비교하여 점프 횟수의 최소값을 result 배열에 저장한다.
+3. result[nums.length] 를 반환.
+***
