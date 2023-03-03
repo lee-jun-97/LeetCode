@@ -24,3 +24,9 @@ The first occurrence is at index 0, so we return 0.
 	<li><code>haystack</code> and <code>needle</code> consist of only lowercase English characters.</li>
 </ul>
 </div>
+
+<h3>How to Solve</h3><hr>
+String의 내부 메서드 중 indexOf()를 사용하여 인덱스를 바로 반환하도록 함.
+
+처음 해결하였을 때는 <code>haystack</code> 변수에 <code>needle</code>가 포함되지 않았거나 <code>haystack</code> 변수의 길이가 0일 때는 -1 을 <code>return</code> 하도록 하였다.
+그러나 <code>indexOf()</code> 메서드 반환값이 <code>parameter</code>가 포함되지 않았을 경우 바로 -1을 리턴 해주기 때문에 <code>indexOf()</code>의 결과를 바로 <code>return</code> 하도록 수정하였다.
