@@ -49,3 +49,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 	<li><code>nums</code> is sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
 </div>
+<br>
+<br>
+<h3>How to Solve</h3><hr>
+저장할 배열의 <code>index</code> 값을 갖는 <code>idx</code> 변수를 선언한 후 배열을 순회하면서 다음 원소의 값과 다를 경우 <code>idx</code> 인덱스 위치에 저장한 후 마지막 원소의 값은 <code>idx+1</code>의 위치에 저장한다.
